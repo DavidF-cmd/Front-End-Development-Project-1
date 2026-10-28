@@ -58,13 +58,12 @@ Add at least one screenshot of your working application.
 
 Example:
 
-![Screenshot of the application](img/screenshot.png)
+[Screenshot of the application](img/screenshot.jpg)
 
 ## Known issues / limitations
 
-Describe any known bugs, missing features or other limitations.
-
-If there are no known issues, write: **No known issues.**
+No error markings around failed inputs
+No choice removal or movement of items
 
 
 ## Self-assessment and learning reflection
@@ -72,11 +71,16 @@ If there are no known issues, write: **No known issues.**
 Reflect on your work and learning process.
 
 - What did I succeed in?
+**I beleive I succeeded in tackling this project without much stress or struggle, compared to my previous attempts at other workshops. The simplicity of the task balanced out with its unperceived complexity, and I believe I sought out the correct resources and approaches based on my limited ability rather than go for something much more complex and beyond my current skill**
 - What was challenging?
+**Deciding what the best appraoch to these solutions is, as for my understanding, coding is much like math in the sense that there is always a best or most perfect solution. In this case, there were a number of different ways I could have tackled this, some much more easier than others, and finding them was such a challenge**
 - What would I improve if I had more time?
+**Add adequate instructions for removing specific items from the list, and incorporating a dependancy between the "make a list" button and adding tasks to the list it creates**
 - What did I learn about HTML, CSS, JavaScript and DOM scripting?
+**I've learned that these tools are all much easier to work with that at first seen, because of how similar their works are, but at the same time how they seem to be much more complicated due to their sue of words. The ways in which a website is made through the collective use of all four is as impressive as it is difficult to navigate, not altogether impossible now**
 - What remained unclear or what would I like to learn more about?
-- My self-assessed project grade: **xx/10 points**
+**Dependancies between certain functions but also the addition of items without the use of arrays**
+- My self-assessed project grade: **6/10 points**
 
 ## Sources and acknowledgements
 
@@ -97,6 +101,14 @@ If you used ChatGPT, GitHub Copilot or another AI tool, mention it here and brie
 
 - AI tool used: ChatGPT
   - For the purpose of debugging and asking questions in regards to what I was doing wrong that was not immediately obvious. Also helped me clearing up the use of certain JScript functions that materials were not clear enough for me
+
+## License
+
+This project is licensed under the MIT License.
+
+More information about adding a license to a GitHub repository:  
+https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+
 
 ## License
 
