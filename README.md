@@ -16,7 +16,7 @@ This website's intent is to provide an easy to to-do list application
 
 ### Wireframe / sketch
 
-![Wirefrane](img/wireframe.jpg)
+Project 1/wireframe.jpg
 
 
 ## Web links
