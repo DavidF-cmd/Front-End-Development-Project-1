@@ -21,9 +21,9 @@ This website's intent is to provide an easy to to-do list application
 
 ## Web links
 
-- **Published application:** [Add your GitHub Pages URL here](https://yourusername.github.io/your-repository/)
+- **Published application:** https://davidf-cmd.github.io/
 - **GitHub repository:** https://github.com/DavidF-cmd/Front-End-Development-Project-1
-- **Project video presentation:** [Add your video URL here](https://example.com/)
+- **Project video presentation:** https://youtu.be/4rNLCcFuAOs
 
 ## About the application
 
