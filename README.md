@@ -58,7 +58,7 @@ Add at least one screenshot of your working application.
 
 Example:
 
-[Screenshot of the application](screenshot.jpg)
+![Screenshot of the application](screenshot.jpg)
 
 ## Known issues / limitations
 
