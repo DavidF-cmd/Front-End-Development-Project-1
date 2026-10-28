@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1><p>Here are your to-do items.</h1>
+    <h2><p>If you'd like to add more, start a list by pressing the "Make list" button. <br>Then, enter the tasks below below:</p></h2>
+    
+    <button id="MakeList" onclick="makeNewList()">Make new list</button>  <!-- The button provided, once pressed, will make a new unsorted list-->
+    
+
+    <br>
+
+    <br>
+    <div id="error"></div>
+    <label for="task register">Task:</label><br>
+    <input type="text" id="task" placeholder="Enter a task"></input>  <!-- This is the input box for users to input their tasks --> 
+    
+    
+    <p id="error""></p> <!-- This is where the error message pops up --> 
+       
+
+    <button type="button" id="add_task">Add Task</button>   <!-- This button adds the tasks --> 
+    
+    
+
+    <br>
+
+    <br>
+    
+   
+    <div id="list">
+        <ul id="taskList"></ul> <!-- This is the task list--> 
+
+    </div>
+
+
+    <button type="button" id="removeButton" onclick="remove()">Remove task</button> <!-- This button removes the tasks -->
+
+
+    <br>
+    
+    <h3><label for="completed task list">Completed tasks:</label></h3>
+    <div id="completed">
+        <ul id="complete"></ul> <!-- This the completed tasks list --> 
+    </div>
+    <button id="mark complete" onclick="mark()">Mark task as complete</button> <!-- This button moves tasks to a completed list--> 
+
+
+
+    
+
+
+
+
+</body>
+</html>

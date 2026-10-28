@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: rgb(182, 184, 138);
+    background-repeat: repeat; 
+}
+
+main {
+    padding-bottom: 80px
+
+}
+
+h1.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: steelblue !important;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 4px;
+    margin: 15px 0;
+    color: #444;
+}
+
+h3
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 4px;
+    margin: 15px 0;
+    color: #7d0d74;
+}
+
+
+.intro {
+    text-align: center;
+    font-size: 10px;
+    margin: 20px;
+}
+
+.highlight.bold {
+    color: rgb(0, 120, 120);
+}
+
+nav {
+    text-align: center;
+    margin: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:visited {
+    color: tan;
+}
+
+nav a:active {
+    color: burlywood;
+}
+
+.quote {
+    background-color: thistle;
+    padding: 15px;
+    margin: 30px;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 200px;
+    opacity: 0.95;
+}
+
+.gallery {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    min-width: 399px;
+    max-width: 200px;
+    position: relative;
+}
+
+.gallery figcaption {
+    font-size: 20px;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: center;
+}
+
+.artwork.static { position: static;}
+.artwork.relative {position:relative; top: 10px; left: -100px;}
+.artwork.absolute {position:absolute; top: 20px; right: 20px; z-index: 2;}
+.artwork.sticky { position: sticky; top: 200px; z-index: 1;}
+
+.iframe-box {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    height: 300px;
+    width: 500px;
+}
+
+.art-iframe {
+    width: 420px;
+    height: 200px;
+    border: 3px solid #333
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background: #eee;
+    border-top: 2px solid #ccc;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100;
+    background: rgb(34, 34, 34, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.floating-box {
+    float: left;
+    width: auto;
+    background-color: #444;
+    color: #eee;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 6px;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+.clear-box {
+    clear: both;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 9px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.art-img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #333;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+img [alt*="artwork1"] {
+    border: 3px solid teal;
+}
+
+.hidden-player {
+    visibility: hidden;
+}
+
+.z-stack-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.z-box {
+    display: inline-block;
+    margin-left: -100px;
+    position: relative;
+    text-align: center;
+}
+
+.z-box:first-child {margin-left: 0;}
+
+.z-1 {z-index: -1;}
+.z-0 {z-index: 0;}
+.z-1 {z-index: 1;}
+.z-2 {z-index: 2;}
+.z-3 {z-index: 3;}
+
+.zbox-img {
+    width: 200px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    display: block;
+    margin-top: 125px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.z-box img:hover {
+    transform: scale(1.05);
+}
+
+.z-box figcaption {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
