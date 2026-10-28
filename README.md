@@ -12,11 +12,11 @@ This website's intent is to provide an easy to to-do list application
 
 - Creation of a list heading
 - Addition of tasks
-- Restriction paramateres
+- Restriction parameters
 
 ### Wireframe / sketch
 
-Project 1/wireframe.jpg
+![Example Image](wireframe.jpg)
 
 
 ## Web links
@@ -58,7 +58,7 @@ Add at least one screenshot of your working application.
 
 Example:
 
-[Screenshot of the application](img/screenshot.jpg)
+[Screenshot of the application](screenshot.jpg)
 
 ## Known issues / limitations
 
